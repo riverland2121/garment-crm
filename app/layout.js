@@ -1,6 +1,8 @@
+import './globals.css'
+
 export const metadata = {
   title: 'Garment CRM',
-  description: 'Business Management System',
+  description: 'Business Management System for Made-to-Measure Garments',
 }
 
 export default function RootLayout({ children }) {
