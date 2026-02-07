@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function Page() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-pink-50 to-white">
@@ -5,14 +7,22 @@ export default function Page() {
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto">
           <h1 className="text-5xl font-bold text-gray-900 mb-4">
-            ✅ Garment CRM
+            👗 Garment CRM
           </h1>
           <p className="text-xl text-gray-600 mb-2">
-            Successfully Deployed with Tailwind CSS!
-          </p>
-          <p className="text-sm text-gray-500">
             Made-to-Measure Business Management System
           </p>
+          <p className="text-sm text-gray-500 mb-8">
+            Complete solution for ladies ethnic wear business
+          </p>
+          
+          {/* CTA Button */}
+          <Link 
+            href="/dashboard"
+            className="inline-flex items-center px-6 py-3 bg-pink-600 text-white font-semibold rounded-lg shadow-lg hover:bg-pink-700 transition-colors"
+          >
+            Open Dashboard →
+          </Link>
         </div>
 
         {/* Success Card */}
@@ -25,36 +35,24 @@ export default function Page() {
                 </svg>
               </div>
               <h2 className="ml-4 text-2xl font-semibold text-gray-900">
-                Step 1 Complete: Styling Added
+                Step 2 Complete: Dashboard Added
               </h2>
             </div>
             
             <div className="space-y-3 text-gray-600">
               <p className="flex items-start">
                 <span className="text-green-500 mr-2">✓</span>
-                Tailwind CSS installed and configured
+                Sidebar navigation with 8 menu items
               </p>
               <p className="flex items-start">
                 <span className="text-green-500 mr-2">✓</span>
-                Professional design system ready
+                Dashboard with stats cards and recent orders
               </p>
               <p className="flex items-start">
                 <span className="text-green-500 mr-2">✓</span>
-                Mobile-responsive utilities available
+                Professional business layout
               </p>
             </div>
-          </div>
-        </div>
-
-        {/* Next Steps */}
-        <div className="mt-8 max-w-2xl mx-auto">
-          <div className="bg-blue-50 rounded-lg p-6 border border-blue-200">
-            <h3 className="text-lg font-semibold text-blue-900 mb-3">
-              🎯 Next Step: Dashboard + Navigation
-            </h3>
-            <p className="text-blue-700 text-sm">
-              Ready to add the main dashboard with sidebar navigation? Just say "Add Dashboard" and I'll provide the files!
-            </p>
           </div>
         </div>
 
