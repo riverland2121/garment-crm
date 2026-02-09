@@ -11,6 +11,8 @@ export default function Sidebar() {
     { name: 'Orders', href: '/dashboard/orders', icon: '📝' },
     { name: 'Customers', href: '/dashboard/customers', icon: '👥' },
     { name: 'Materials', href: '/dashboard/materials', icon: '📦' },
+    { name: 'Services', href: '/dashboard/services', icon: '🛠️' },
+    { name: 'Service Providers', href: '/dashboard/service-providers', icon: '👨‍🔧' },
     { name: 'Products', href: '/dashboard/products', icon: '👗' },
     { name: 'Invoices', href: '/dashboard/invoices', icon: '🧾' },
     { name: 'Reports', href: '/dashboard/reports', icon: '📈' },
